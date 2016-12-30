@@ -2,6 +2,6 @@ package com.example;
 
 class Hello {
     public static void main(String[] args) {
-        System.out.println(Message.getMessage());
+        System.out.println(Message.getFormattedMessage());
     }
 }

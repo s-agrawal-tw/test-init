@@ -7,4 +7,8 @@ public class Message {
     public static String getMessage() {
         return MESSAGE;
     }
+
+    public static String getFormattedMessage() {
+        return getMessage().concat("!!!");
+    }
 }
